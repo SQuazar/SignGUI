@@ -1,0 +1,11 @@
+name: SignGUI
+version: ${project.version}
+main: net.flawe.signgui.SignGUI
+api-version: 1.16
+prefix: SignGUI
+authors: [ flawe ]
+
+commands:
+  sign:
+    usage: /sign
+    description: Open sign editor
