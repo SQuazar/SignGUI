@@ -21,6 +21,7 @@ public class PacketReader {
     public static Map<UUID, Channel> channels = new HashMap<>();
 
     public void inject(Player player) {
+
         EntityPlayer entityPlayer = ((CraftPlayer)player).getHandle();
         channel = entityPlayer.playerConnection.networkManager.channel;
         channels.put(player.getUniqueId(), channel);
