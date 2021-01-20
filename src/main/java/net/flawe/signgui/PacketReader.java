@@ -16,10 +16,18 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
+/**
+ * The main packet reader
+ * @author flawe
+ */
 public class PacketReader {
     Channel channel;
     public static Map<UUID, Channel> channels = new HashMap<>();
 
+    /**
+     * Packet injection to player
+     * @param player - Player who's injected
+     */
     public void inject(Player player) {
 
         EntityPlayer entityPlayer = ((CraftPlayer)player).getHandle();
