@@ -43,7 +43,7 @@
                 </executions>
                 <configuration>
                     <jarOutputDirectory>target</jarOutputDirectory>
-                    <finalName>SignGUI</finalName>
+                    <finalName>SignGUI-${version}</finalName>
                 </configuration>
             </plugin>
             <plugin>
